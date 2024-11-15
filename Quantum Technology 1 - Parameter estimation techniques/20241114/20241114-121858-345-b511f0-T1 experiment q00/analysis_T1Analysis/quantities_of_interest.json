@@ -1,0 +1,61 @@
+{
+    "fit_success": true,
+    "T1": {
+        "__dtype__": "UFloat",
+        "nominal_value": 5.3459855659188094e-05,
+        "std_dev": 1.421400538399642e-06
+    },
+    "fit_msg": "Summary\n$T1$: 53.5$\\pm$1.4 \u03bcs",
+    "fit_result": {
+        "exp_decay_func": {
+            "success": true,
+            "message": "Fit succeeded.",
+            "params": {
+                "tau": {
+                    "name": "tau",
+                    "user_data": null,
+                    "init_value": 0.000185,
+                    "min": 0,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 1.421400538399642e-06,
+                    "correl": {},
+                    "value": 5.3459855659188094e-05
+                },
+                "amplitude": {
+                    "name": "amplitude",
+                    "user_data": null,
+                    "init_value": 1,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": 1
+                },
+                "offset": {
+                    "name": "offset",
+                    "user_data": null,
+                    "init_value": 0,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": 0
+                },
+                "n_factor": {
+                    "name": "n_factor",
+                    "user_data": null,
+                    "init_value": 1,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0.0,
+                    "correl": null,
+                    "value": 1
+                }
+            }
+        }
+    }
+}

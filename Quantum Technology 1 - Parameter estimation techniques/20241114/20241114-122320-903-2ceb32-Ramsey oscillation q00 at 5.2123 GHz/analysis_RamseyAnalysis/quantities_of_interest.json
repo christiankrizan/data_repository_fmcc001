@@ -1,0 +1,107 @@
+{
+    "T2*": {
+        "__dtype__": "UFloat",
+        "nominal_value": 2.858787198678492e-05,
+        "std_dev": 1.2374247828873419e-06
+    },
+    "fitted_detuning": {
+        "__dtype__": "UFloat",
+        "nominal_value": 222949.11746124426,
+        "std_dev": 461.54559117940704
+    },
+    "detuning": {
+        "__dtype__": "UFloat",
+        "nominal_value": 122949.11746124426,
+        "std_dev": 461.54559117940704
+    },
+    "qubit_frequency": {
+        "__dtype__": "UFloat",
+        "nominal_value": 5212204290.882539,
+        "std_dev": 461.54559117940704
+    },
+    "fit_success": true,
+    "fit_msg": "Summary\n$T_2^*$: 28.6$\\pm$1.2 \u03bcs\n\nartificial detuning: 100 kHz\nfitted detuning: 222.95$\\pm$0.46 kHz\nactual detuning: 122.95$\\pm$0.46 kHz\n\ninitial qubit frequency: 5.2123 GHz\nfitted qubit frequency: 5.21220429$\\pm$4.6e-07 GHz",
+    "fit_result": {
+        "Ramsey_decay": {
+            "success": true,
+            "message": "Fit succeeded.",
+            "params": {
+                "tau": {
+                    "name": "tau",
+                    "user_data": null,
+                    "init_value": 9.026666666666666e-06,
+                    "min": 0,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 1.2374247828873419e-06,
+                    "correl": {
+                        "frequency": -0.04051315294690479,
+                        "phase": 0.0230412767767286
+                    },
+                    "value": 2.858787198678492e-05
+                },
+                "n_factor": {
+                    "name": "n_factor",
+                    "user_data": null,
+                    "init_value": 1,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0.0,
+                    "correl": null,
+                    "value": 1
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "user_data": null,
+                    "init_value": 222222.22222222222,
+                    "min": 0,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 461.54559117940704,
+                    "correl": {
+                        "tau": -0.04051315294690479,
+                        "phase": -0.8350656570444402
+                    },
+                    "value": 222949.11746124426
+                },
+                "phase": {
+                    "name": "phase",
+                    "user_data": null,
+                    "init_value": 0.05385587406153913,
+                    "min": -6.283185307179586,
+                    "max": 6.283185307179586,
+                    "brute_step": null,
+                    "stderr": 0.01986190866083618,
+                    "correl": {
+                        "tau": 0.0230412767767286,
+                        "frequency": -0.8350656570444402
+                    },
+                    "value": -0.009623207978630255
+                },
+                "amplitude": {
+                    "name": "amplitude",
+                    "user_data": null,
+                    "init_value": 0.5,
+                    "min": 0,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": 0.5
+                },
+                "offset": {
+                    "name": "offset",
+                    "user_data": null,
+                    "init_value": 0.5,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": 0.5
+                }
+            }
+        }
+    }
+}

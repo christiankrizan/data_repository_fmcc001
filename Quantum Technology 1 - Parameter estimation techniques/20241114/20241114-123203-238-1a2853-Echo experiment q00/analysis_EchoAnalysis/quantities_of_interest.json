@@ -1,0 +1,61 @@
+{
+    "fit_success": true,
+    "t2_echo": {
+        "__dtype__": "UFloat",
+        "nominal_value": 7.400661414402876e-05,
+        "std_dev": 1.4027343918212159e-06
+    },
+    "fit_msg": "Summary\n$T_{2,\\mathrm{Echo}}$: 74.0$\\pm$1.4 \u03bcs",
+    "fit_result": {
+        "exp_decay_func": {
+            "success": true,
+            "message": "Fit succeeded.",
+            "params": {
+                "tau": {
+                    "name": "tau",
+                    "user_data": null,
+                    "init_value": 3.708e-05,
+                    "min": 0,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 1.4027343918212159e-06,
+                    "correl": {},
+                    "value": 7.400661414402876e-05
+                },
+                "amplitude": {
+                    "name": "amplitude",
+                    "user_data": null,
+                    "init_value": -0.5,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": -0.5
+                },
+                "offset": {
+                    "name": "offset",
+                    "user_data": null,
+                    "init_value": 0.5,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0,
+                    "correl": null,
+                    "value": 0.5
+                },
+                "n_factor": {
+                    "name": "n_factor",
+                    "user_data": null,
+                    "init_value": 1,
+                    "min": -Infinity,
+                    "max": Infinity,
+                    "brute_step": null,
+                    "stderr": 0.0,
+                    "correl": null,
+                    "value": 1
+                }
+            }
+        }
+    }
+}
